@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UNELMLK</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+   <link rel="stylesheet" href="./css/style.css" >
+
+</head>
+<body >
+
+   
+    <div class="container section">
+      
+      <a href="#" class="sidenav-trigger" data-target="menu-side">
+        <i class="material-icons">menu MENU</i>
+                                          
+      </a>
+      <ul class="sidenav" id="menu-side">
+        <li>
+         <div class="user-view">
+          <div class="background">
+           <img src="image/s5.jpg" alt="" />
+          </div>
+          <a href="#">
+            <img src="image/logo2.png" alt="" class="circle" />
+           </a>
+          <a href="#">
+            <span class="name red-text">UNELMLK</span>
+           </a> 
+           <a href="#">
+            <span class="name red-text">Universidad experimental de lara martin luther king</span>
+           </a> 
+         </div>
+        </li>
+        <li>
+          <a href="#">
+           <i class="material-icons">school</i>
+             HOME
+           </a>
+        </li>
+        <li>
+          <a href="#">
+           <i class="material-icons">storage</i>
+             EXTENCIONES
+           </a>
+        </li>
+        <li>
+          <a href="#">
+           <i class="material-icons">perm_media</i>
+            NOTICIAS
+           </a>
+        </li>
+        <li>
+          <a href="#">
+           <i class="material-icons">speaker_notes</i>
+             CONTACTO
+           </a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col s12">
+             <img class="responsive-img" src="image/titulo.jpg"  alt="" />
+          </div>  
+      </div>
+    </div>  
+    
+   
+   <div class="fullscreen"> 
+    <div class="row">
+     <div class="col s12">
+      <div class="slider">
+      <div class="slides">
+        <li>
+         <img src="image/s10.jpg" alt="" />
+          <div class="caption center-align">
+           <h3>PRUEBA</h3>
+            	<h5 class="light">prueba de escritura tecnica</h5> 
+          </div>
+        </li>
+        <li>
+         <img src="image/s11.jpg" alt="" />
+          <div class="caption right-align">
+           <h3>PRUEBA</h3>
+            	<h5 class="light">prueba de escritura tecnica</h5> 
+          </div>
+        </li>
+        <li>
+         <img src="image/s12.jpg" alt="" />
+          <div class="caption left-align">
+           <h3>PRUEBA</h3>
+            	<h5 class="light">prueba de escritura tecnica</h5> 
+          </div>
+        </li>
+      </div>
+      </div>
+     </div>
+    </div>
+   </div>
+
+    <div class="row">
+      <div class="col s12 m3 blue">
+      
+         <div class="card">
+        <div class="card-image">
+          <img src="image/logo3.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.I am a very simple card. I am good at containing small bits of information.
+           </p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+      
+      </div>
+      <div class="col s12 m6 red">
+       <div class="card">
+         <div class="card-image waves-effect waves-block waves-light">
+           <img class="activator" src="image/s1.jpg">
+         </div>
+       <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title 
+      <i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+     </div>
+     <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+     </div>
+      
+      </div>
+     </div>
+      <div class="row">
+        <div class="col s12 m3 blue">
+        
+         <div class="card">
+        <div class="card-image">
+          <img src="image/logo3.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.I am a very simple card. I am good at containing small bits of information.
+           </p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+        
+        </div>
+        
+      </div>
+      
+  
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+         document.addEventListener('DOMContentLoaded', function() {
+         var elems = document.querySelectorAll('.sidenav');
+         var instances = M.Sidenav.init(elems);
+       });
+    
+    </script>
+    <script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems);
+  });
+    
+    </script>
+    
+</body>
+</html>
